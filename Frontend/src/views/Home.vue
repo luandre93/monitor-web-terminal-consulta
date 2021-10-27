@@ -101,6 +101,7 @@ export default {
       await this.sleep(4000).then(() => {
         console.log(this.resultado);
       });
+      this.VerificarLojasOnline();
       this.Carregar();
       this.TimeOutAPI();
     },
@@ -110,6 +111,8 @@ export default {
     },
     //verifica se as lojas estão online.
     VerificarLojasOnline() {
+      this.qtOnline = 0;
+      this.qtOffline = 0;
       for (this.item of this.resultado.terminais) {
         !this.item.Estado ? this.qtOffline++ : this.qtOnline++;
       }
