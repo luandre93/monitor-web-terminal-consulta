@@ -11,7 +11,7 @@
 
 => Primeiro 
 
-É preciso fazer "npm install" nos dois diretorios "Frontend" e o "Backend".
+É preciso fazer "npm install" nos dois diretorios "Frontend" e "Backend".
 
 => Segundo
 
@@ -20,5 +20,4 @@ Alterar as linhas no arquivo config.js em "/Backend/config/", adicionar no array
 => Terceiro
 
 Executar os Server.bat dos dois diretorios "Frontend" e "Backend" 
-
 
