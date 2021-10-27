@@ -1,0 +1,2 @@
+
+@powershell node ./index.js
