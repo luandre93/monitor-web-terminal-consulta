@@ -27,9 +27,9 @@ app.listen(process.env.PORT || portWEB, () => {
 
 
 
-var hosts = config.config.hostsDev
+var hosts = config.config.hosts
 //var hosts = config.config.hosts
-var index = config.config.indexDev
+var index = config.config.index
 //var index = config.config.index
 var port = config.config.port
 
