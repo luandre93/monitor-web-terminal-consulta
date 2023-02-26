@@ -1,4 +1,4 @@
-# MonitorWEB-STC-Zanthus
+# Monitor WEB de Servidores de Terminal de Consulta
  
  Esse monitor web foi baseado no Monitor STC 2.0 em java da Zanthus, utiliza o mesmo protocolo TCP para fazer conexões entre os servidores STC.
  
